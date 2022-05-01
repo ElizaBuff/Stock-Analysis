@@ -30,15 +30,13 @@ Each subroutine contains code that measures and reports on the execution time - 
 
 On average, the refractored code runs half a second faster. For the year 2017 and 2018, AllStocksAnalysisRefractored() runs approximately .57 and .53 seconds faster respectively than AllStocksAnalysis(). The images below show the message box results. 
 
-**2017**
-![VBA_Challenge_2017_b4refractor](VBA_Challenge_2017_b4refractor.png) 
+**2017 ORIGINAL:**![VBA_Challenge_2017_b4refractor](VBA_Challenge_2017_b4refractor.png) 
 
-![VBA_Challenge_2017](VBA_Challenge_2017.png) 
+**2017 REFRACTORED:**![VBA_Challenge_2017](VBA_Challenge_2017.png) 
 
-**2018**
-![VBA_Challenge_2018_b4refractor](VBA_Challenge_2018_b4refractor.png) 
+**2018 ORIGINAL:**![VBA_Challenge_2018_b4refractor](VBA_Challenge_2018_b4refractor.png) 
 
-![VBA_Challenge_2018](VBA_Challenge_2018.png)        
+**2018 REFRACTORED:**![VBA_Challenge_2018](VBA_Challenge_2018.png)        
 
 
 ## Summary 
