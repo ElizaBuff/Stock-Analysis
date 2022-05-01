@@ -13,7 +13,8 @@ The original code compares stock market stocks. It currently works well for a do
 ## Results
 Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
-
+AllStocksAnalysis()
+AllStocksAnalysisRefactored()
 The analysis is well described with screenshots and code (4 pt).
 
 ![VBA_Challenge_2017](VBA_Challenge_2017.png)
@@ -41,8 +42,21 @@ Based on the line graph above, I had the following takeways about play campaigns
 * Plays with a goal of less than 5,000 have a success rate 20 points higher than plays with a goal between 5,000 and 20,000. 
 
 
-### Challenges 
-One challenge I encountered in writing my countifs formula was ensuring that I only counted the *plays*. Initially, my formula =COUNTIFS('Raw Data'!$D:$D, ">=1000", 'Raw Data'!$D:$D, "<5000", 'Raw Data'!$F:$F, "successful") counted every subcategory so I had to add an additional criteria and changed my formula to =COUNTIFS('Raw Data'!$O:$O, "plays",'Raw Data'!$D:$D, ">=1000", 'Raw Data'!$D:$D, "<5000", 'Raw Data'!$F:$F, "successful"). 
+There are three key difference between the original and refracted code. 
+1. The refracted code contains three output arrays.
+    -Dim tickerVolumes(12) As Long
+    -Dim tickerStartingPrices(12) As Single
+    -Dim tickerEndingPrices(12) As Single
+2. The original code contain a nested loop while the refracted code contains three loops. 
+    -Original: Loop to initialize the tickerVolumes to zero and nested loop to increase volume over all the rows in the spreadsheet.
+    -Refracted: First loop to initializes the tickerVolumes to zero. Second loop to increase volume over all the rows in the spreadsheet. Third loop to format the spreadsheet.  
+4. The refracted code contains a formatting loop while the original code runs that as a seperate code.     
 
----
+    
+    Next i
+
+
+        
+
+
 ## Summary 
