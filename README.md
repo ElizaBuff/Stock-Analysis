@@ -44,13 +44,13 @@ Based on the line graph above, I had the following takeways about play campaigns
 
 There are three key difference between the original and refractored code. 
 1. The refractored code contains three output arrays: *Dim tickerVolumes(12) As Long, Dim tickerStartingPrices(12) As Single,* and *Dim tickerEndingPrices(12) As Single*. 
-5. The original code contain a nested loop while the refracted code contains three loops. 
-    -Original: Loop to initialize the tickerVolumes to zero and nested loop to increase volume over all the rows in the spreadsheet.
-    -Refracted: First loop to initializes the tickerVolumes to zero. Second loop to increase volume over all the rows in the spreadsheet. Third loop to format the spreadsheet.  
-4. The refracted code contains a formatting loop while the original code runs that as a seperate code.     
+2. The original code contain a nested loop while the refracted code contains three loops. 
+* Original Code: 
+* Refractored Code: 
+spreadsheet.  
+3. The refracted code contains a formatting loop while the original code runs that as a seperate code.     
 
-    
-    Next i
+As a result of refractoring the code, the 
 
 
         
