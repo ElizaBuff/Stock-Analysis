@@ -40,6 +40,6 @@ On average, the refractored code runs half a second faster. For the year 2017 an
 
 
 ## Summary 
-While there are some disadvantages to refactoring code, the advantages far outweigh the disadvantes. First, coders should make sure they understand how the original code works and that it is bug free. From there, the main challenge is correctly naming arrays. I personally encounter a bug because I used the array *ticketVolume* instead of *tickerVolume*. If coders successfully navigate these challenges, then their focus can shift away from creating something new from scratch to creating an more effifient piece of code. The intended consequences is building on exisiting resources to save time and redirect resources into other tasks.  
+While there are some disadvantages to refactoring code, the advantages far outweigh the disadvantes. First, coders should make sure they understand how the original code works and that it is bug free. From there, the main challenge is correctly naming arrays. In this challebge, I encountered a bug because I used the array *ticketVolume* instead of *tickerVolume*. If coders successfully navigate these challenges, then their focus can shift away from creating something new from scratch to creating an more effifient piece of code. The intended consequences is building on exisiting resources to save time and redirect resources into other tasks.  
 
 There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
