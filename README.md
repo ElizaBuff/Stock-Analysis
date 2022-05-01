@@ -25,7 +25,7 @@ Based on the line graph above, I had the following takeways about theather campa
 Next, I organized the data to see if the funding goal could impact the kickstarter's success. First, I needed to count the number of successful, failed, and canceled plays by goal. To do this, I used the COUNTIFS formula. For example, to count the number of successful plays with a goal between 1,000 and 4,999 I wrote the formula =COUNTIFS('Raw Data'!$O:$O, "plays",'Raw Data'!$D:$D, ">=1000", 'Raw Data'!$D:$D, "<5000", 'Raw Data'!$F:$F, "successful"). Then, I converted the number of successful, failed, and cancled plays to a percentage to more accurately compare them. Using this information, I created the line graph shown below. 
 
 ![VBA_Challenge_2018](VBA_Challenge_2018.png)
-![VBA_Challenge_2018_b4refractor] (VBA_Challenge_2018_b4refractor.png) 
+![VBA_Challenge_2018_b4refractor](VBA_Challenge_2018_b4refractor.png)
 
 Based on the line graph above, I had the following takeways about play campaigns:
 * Because there are zero cancled plays, successful and failed campaigns are symetric about the 50% line. 
