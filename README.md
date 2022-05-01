@@ -13,6 +13,7 @@ Steve loves the workbook you prepared for him. At the click of a button, he can 
 I organized the data to see if the month the kickstarter launched could impact its success. First, I made the data more detailed by splitting the Category and Subcategory column into two distinct columns. This allowed me to view the wider category of theater and later the narrower subcategory plays. Next, I converted Unix timestamps to identify the launch date. For example, I turned the cell **1434931811** into **06/22/15** using the code =(((J2/60)/60)/24)+DATE(1970,1,1). Finally, I created a pivot table that filtered based on "Parent Category" and "Years." From that pivot table I created the line graph shown below. 
 
 ![VBA_Challenge_2017](VBA_Challenge_2017.png)
+![VBA_Challenge_2017_b4refractor] (VBA_Challenge_2017_b4refractor.png) 
 
 Based on the line graph above, I had the following takeways about theather campaigns:
 * May, June, and July respectively had the highest number of successful campaigns. 
@@ -24,6 +25,7 @@ Based on the line graph above, I had the following takeways about theather campa
 Next, I organized the data to see if the funding goal could impact the kickstarter's success. First, I needed to count the number of successful, failed, and canceled plays by goal. To do this, I used the COUNTIFS formula. For example, to count the number of successful plays with a goal between 1,000 and 4,999 I wrote the formula =COUNTIFS('Raw Data'!$O:$O, "plays",'Raw Data'!$D:$D, ">=1000", 'Raw Data'!$D:$D, "<5000", 'Raw Data'!$F:$F, "successful"). Then, I converted the number of successful, failed, and cancled plays to a percentage to more accurately compare them. Using this information, I created the line graph shown below. 
 
 ![VBA_Challenge_2018](VBA_Challenge_2018.png)
+![VBA_Challenge_2018_b4refractor] (VBA_Challenge_2018_b4refractor.png) 
 
 Based on the line graph above, I had the following takeways about play campaigns:
 * Because there are zero cancled plays, successful and failed campaigns are symetric about the 50% line. 
