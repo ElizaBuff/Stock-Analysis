@@ -20,16 +20,22 @@ There are three key differences between the original and refractored code.
         
         * Refractored Code: A loop to initialize the tickerVolumes to zero. A loop to increase volume over all the rows in the spreadsheet. A loop to format the spreadsheet.     
 
-As a result, the codes produce the same stock performances, but the refractored code executes the code faster. 
+As a result, the codes produce the same stock performances, but the refractored code executes faster. 
 
 ### Stock Performance  
+Of the twelve stocks this code compared, the best stocks were ENPH and RUN because they are the only stocks with an increase in return in both 2017 and 2018. Of the two, ENPH had significant double digit returns both years with 129.5% in 2017 and 81.0% in 2018 while RUN had returns of 5.5% and 84% respectively. The worst stock was TERP because it was the only stock with negative returns in both years.  
 
 ### Execution Time 
+Each subroutine contains code that measures and reports on the execution time - *MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)*. The images below 
 
+On average, the refractored code runs half a second faster. For the year 2017 and 2018, AllStocksAnalysisRefractored() runs approximately .57 and .53 seconds faster respectively than AllStocksAnalysis(). The images below show the message box results. 
+
+**2017**
 ![VBA_Challenge_2017_b4refractor](VBA_Challenge_2017_b4refractor.png) 
 
 ![VBA_Challenge_2017](VBA_Challenge_2017.png) 
 
+**2018**
 ![VBA_Challenge_2018_b4refractor](VBA_Challenge_2018_b4refractor.png) 
 
 ![VBA_Challenge_2018](VBA_Challenge_2018.png)        
