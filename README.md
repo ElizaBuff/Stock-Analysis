@@ -42,11 +42,11 @@ Based on the line graph above, I had the following takeways about play campaigns
 * Plays with a goal of less than 5,000 have a success rate 20 points higher than plays with a goal between 5,000 and 20,000. 
 
 
-There are three key difference between the original and refracted code. 
-1. The refracted code contains three output arrays.
-    -Dim tickerVolumes(12) As Long
-    -Dim tickerStartingPrices(12) As Single
-    -Dim tickerEndingPrices(12) As Single
+There are three key difference between the original and refractored code. 
+1. The refractored code contains three output arrays.
+      -Dim tickerVolumes(12) As Long
+      -Dim tickerStartingPrices(12) As Single
+      -Dim tickerEndingPrices(12) As Single
 2. The original code contain a nested loop while the refracted code contains three loops. 
     -Original: Loop to initialize the tickerVolumes to zero and nested loop to increase volume over all the rows in the spreadsheet.
     -Refracted: First loop to initializes the tickerVolumes to zero. Second loop to increase volume over all the rows in the spreadsheet. Third loop to format the spreadsheet.  
