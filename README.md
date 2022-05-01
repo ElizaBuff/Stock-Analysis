@@ -24,9 +24,13 @@ As a result, the codes produce the same stock performances, but the refractored 
 
 ### Execution Time 
 
-![VBA_Challenge_2017_b4refractor](VBA_Challenge_2017_b4refractor.png) ![VBA_Challenge_2018_b4refractor](VBA_Challenge_2018_b4refractor.png) 
+![VBA_Challenge_2017_b4refractor](VBA_Challenge_2017_b4refractor.png) 
 
-![VBA_Challenge_2017](VBA_Challenge_2017.png) ![VBA_Challenge_2018](VBA_Challenge_2018.png)        
+![VBA_Challenge_2018_b4refractor](VBA_Challenge_2018_b4refractor.png) 
+
+![VBA_Challenge_2017](VBA_Challenge_2017.png) 
+
+![VBA_Challenge_2018](VBA_Challenge_2018.png)        
 
 
 ## Summary 
