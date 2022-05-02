@@ -40,7 +40,7 @@ On average, the refractored code runs half a second faster. For the year 2017 an
 
 
 ## Summary 
-There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
+The codes are very similar. In terms of output, they produce the same results with the only exception being that the refractored code includes the formating that the original code runs as a seperate subscript. Since the results are the same, the primary advantage to the user of the refractored code is the reduced execution time. For the coder, the advantage of the refractored code is enhanced readability. Since the code exisits in single loops, the code is simplier meaning that understanding each line is more straightforward. 
 
 
 While there are some disadvantages to refactoring code, the advantages far outweigh the disadvantes. First, coders should make sure they understand how the original code works and that it is bug free. From there, the main challenge is correctly naming arrays. In this challenge, I encountered a bug because I used the array *ticketVolume* instead of *tickerVolume*. If coders successfully navigate these challenges, then their focus can shift away from creating something new from scratch to creating a more effifient piece of code. The intended consequences being to build on exisiting resources to save time and redirect resources into other tasks.  
